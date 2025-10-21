@@ -18,7 +18,7 @@
 .menu2 {
   display: flex;
   list-style: none;
-  gap: 50px;
+  gap: 100px;
   justify-content: center;
   align-items: center;
   margin: 0;
