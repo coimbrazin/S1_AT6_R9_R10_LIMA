@@ -85,6 +85,12 @@ html, body {
   background: radial-gradient(circle at center, cyan, #5170ff);
   border-radius: 20px;
   border: 2px solid;
+  transition: transform 0.3s, box-shadow 0.3s;
+}
+
+.card1:hover {
+  transform: scale(1.05);
+  box-shadow: 0 10px 20px rgb( 0, 0, 0, 0.3);
 }
 
 .cards2 {
@@ -101,6 +107,12 @@ html, body {
   background: radial-gradient(circle at center, cyan, #5170ff);
   border-radius: 20px;
   border: 2px solid;
+  transition: transform 0.3s, box-shadow 0.3s;
+}
+
+.card2:hover {
+  transform: scale(1.05);
+  box-shadow: 0 10px 20px rgb( 0, 0, 0, 0.3);
 }
 
 .tenis1, .tenis2, .tenis4, .tenis5{
