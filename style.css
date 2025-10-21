@@ -18,7 +18,7 @@
 .menu2 {
   display: flex;
   list-style: none;
-  gap: 100px;
+  gap: 50px;
   justify-content: center;
   align-items: center;
   margin: 0;
@@ -27,14 +27,37 @@
 }
 
 /* Troca cor quando passa o mouse */
-.menu2 a:hover {
-  color: #007bff;
+.menu2 a {
+  background-color: #5170ff;
+  color: black;
+  padding: 5px 15px;
+  border-radius: 12px;
+  text-decoration: none;
   transition: 0.3s;
+}
+
+.menu2 a:hover {
+  background-color: #6d84ed;
+  color: white;
 }
 
 header {
   position: relative;
   z-index: 1;
+}
+
+html, body {
+  margin: 0;
+  padding: 0;
+}
+
+.linha-divisoria {
+  border: none;
+  height: 2px;
+  background: black;
+  margin: 0;
+  padding: 0;
+  width: 100%;
 }
 
 .cinza {
@@ -59,7 +82,7 @@ header {
 .card1 {
   width: 350px;
   height: 400px;
-  background-color: #5170ff;
+  background: radial-gradient(circle at center, cyan, #5170ff);
   border-radius: 20px;
   border: 2px solid;
 }
@@ -75,7 +98,7 @@ header {
 .card2 {
   width: 350px;
   height: 400px;
-  background-color: #5170ff;
+  background: radial-gradient(circle at center, cyan, #5170ff);
   border-radius: 20px;
   border: 2px solid;
 }
@@ -94,6 +117,7 @@ header {
 .tenis6 {
   width: 120%;
   height: 120%;
+  margin-top: -40px;
 }
 
 /* SOBRE */
