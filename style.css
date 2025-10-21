@@ -1,0 +1,117 @@
+.logo{
+  width: 150px;
+  height: auto;
+}
+
+.Menu {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 5%;
+}
+
+.Menu a{
+  text-decoration: none;
+  color: black;
+}
+
+.menu2 {
+  display: flex;
+  list-style: none;
+  gap: 50px;
+  justify-content: center;
+  align-items: center;
+  margin: 0;
+  padding: 10px;
+  flex: 1;
+}
+
+/* Troca cor quando passa o mouse */
+.menu2 a:hover {
+  color: #007bff;
+  transition: 0.3s;
+}
+
+header {
+  position: relative;
+  z-index: 1;
+}
+
+.cinza {
+  position: absolute;
+  top: 0;
+  left: 0;
+  background-color: darkgray;
+  opacity: 75%;
+  height: 200%;
+  width: 40%;
+  z-index: 0;
+}
+
+.cards1 {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  gap: 200px;
+  padding: 100px 0;
+}
+
+.card1 {
+  width: 350px;
+  height: 400px;
+  background-color: #5170ff;
+  border-radius: 20px;
+  border: 2px solid;
+}
+
+.cards2 {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  gap: 200px;
+  padding: 100px 0;
+}
+
+.card2 {
+  width: 350px;
+  height: 400px;
+  background-color: #5170ff;
+  border-radius: 20px;
+  border: 2px solid;
+}
+
+.tenis1, .tenis2, .tenis4, .tenis5{
+  width: 110%;
+  height: 110%
+}
+
+.tenis3 {
+  width: 110%;
+  height: 110%;
+  padding-left: 20px;
+}
+
+.tenis6 {
+  width: 120%;
+  height: 120%;
+}
+
+/* SOBRE */
+
+.historia {
+  position: absolute;
+  color: black;
+  margin: 100px;
+  z-index: 0;
+  font-size: 20px;
+  top: 190px;
+}
+
+.titulo_sobre {
+  position: relative;
+  color: black;
+  margin: 50px;
+  z-index: 0;
+  font-size: 50px;
+  padding-left: 3%;
+}
